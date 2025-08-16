@@ -1,10 +1,16 @@
 {
 	"@metadata": {
 		"authors": [
-			"MarkusRost"
+			"MarkusRost",
+			"PretzelRocky"
 		]
 	},
 	"searchdigest": "Suchübersicht",
+	"searchdigeststats": "Suchübersichtsstatistiken",
+	"searchdigest-stats-intro": "Diese Seite zeigt den Prozentanteil fehlgeschlagener Suchen, welche seit der Suche zu einer Seitenerstellung geführt haben, per Initiale an. Seit '''$1''' gesuchte Phrasen werden in dieser Statistik berücksichtigt.",
+	"searchdigest-stats-header-initial": "Initiale",
+	"searchdigest-stats-header-percent": "Prozentanteil der Erstellungen",
+	"searchdigest-error-fromtoohigh": "Der angegebene „seit“ Zeitstempel kann nicht in der Zukunft liegen.",
 	"searchdigest-desc": "Zum Anzeigen von fehlgeschlagenen Suchen",
 	"searchdigest-help": "Diese Seite zeigt die am häufigsten fehlgeschlagenen Suchen auf diesem Wiki.",
 	"searchdigest-error-invalid-misses": "Ungültiger Wert für die Verfehlungen: $1 ($2)",
@@ -22,7 +28,32 @@
 	"searchdigest-admintools-rmold": "Entferne alte Einträge aus der Datenbanktabelle",
 	"searchdigest-admintools-dbwipe": "Datenbanktabelle leeren (!!!)",
 	"searchdigest-admintools-submit": "Aktion durchführen",
+	"searchdigest-from-prefix": "Zeige Suchen, die wie folgt beginnen:",
+	"searchdigest-form-sortalpha": "Sortiere Ergebnisse alphabetisch anstatt nach der Anzahl der Suchen",
+	"searchdigest-form-submit": "Bestätigen",
 	"right-searchdigest-admin": "Zugriff auf administrative Aufgaben (Suchübersicht)",
 	"right-searchdigest-reader": "Sehe die beliebtesten Suchbegriffe",
-	"action-searchdigest-reader": "sehen der beliebtesten Suchbegriffe"
+	"right-searchdigest-reader-stats": "Betrachten der Suchstatistiken",
+	"right-searchdigest-block": "Blockiere Phrasen in der Suchübersicht",
+	"action-searchdigest-reader": "Betrachten der beliebtesten Suchbegriffe",
+	"action-searchdigest-reader-stats": "Betrachten der Suchstatistiken",
+	"action-searchdigest-block": "Blockiere Phrasen in der Suchübersicht",
+	"searchdigest-block": "Blockierte Suchphrasen",
+	"searchdigest-block-title": "Blockiere Phrase in der Suchübersicht",
+	"searchdigest-block-help": "Benutzer können weiterhin nach Phrasen suchen, die hier blockiert werden, aber sie werden nicht mehr auf der Spezialseite der Suchübersicht angezeigt.",
+	"searchdigest-block-form-query": "Zu blockierende Phrase (berücksichtigt Groß-/Kleinschreibung):",
+	"searchdigest-block-form-submit": "Blockieren",
+	"searchdigest-block-complete": "Die Phrase '''$1''' wurde blockiert.",
+	"searchdigest-block-actor": "Von $1 am $2 hinzugefügt.",
+	"searchdigest-block-buttontext": "Blockieren",
+	"searchdigest-nav-main": "Gesuchte Phrasen",
+	"searchdigest-nav-stats": "Statistiken",
+	"searchdigest-nav-block": "Blockierte Phrasen",
+	"searchdigest-unblock-buttontext": "Blockierung aufheben",
+	"searchdigest-unblock": "Blockierung der Phrase aufheben",
+	"searchdigest-unblock-form-submit": "Blockierung aufheben",
+	"searchdigest-unblock-complete": "Die Phrase '''$1''' wurde aus den blockierten Phrasen entfernt.",
+	"searchdigest-error-notblocked": "Diese Phrase ist nicht blockiert.",
+	"searchdigest-error-blockalreadyblocked": "Diese Phrase wurde bereits blockiert.",
+	"searchdigest-error-blockinvalidquery": "Es wurde keine zu blockierende Phrase angegeben."
 }
